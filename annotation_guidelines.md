@@ -45,7 +45,7 @@ Example:
 For the stanza 
 ```
 Over stod Solen stilleøt
-og spredteø trindt sin Pragt,
+og spredte trindt sin Pragt,
 det hele stille Billed
 i gyldne Baand var lagt.
 ```
@@ -75,3 +75,21 @@ ske Lov og Pris i Evighed!
 Wilhelm 11, Hertug af Sachsen-Weimar, ; 1662.
 ```
 a correct rhyme scheme code is "AABB**I**".
+
+## The definition of rhyme
+Sometimes there the stanzas contain word pairs that don't fully rhyme, but almost, and the rhyme scheme of previous stanzas indicate that the author meant for these to rhyme. In these cases, annotate them as rhymes. The author is a published poet and we should accept their definition of rhyme. 
+
+Example:
+For the stanza
+```
+Hvor skulde da jeg mindes fro
+Enhver, som var mig huld og tro
+i Venskab og i Sangen
+og skued jeg mod Norges Fjeld,
+af Mindets Vemod i min Sjæl
+steg liflig Efterklangen!
+```
+A correct rhyme scheme code is "AABCCB", because Fjeld (modern Norwegian: Fjell) and Sjæl (modern Norwegian: Sjel) _almost_ rhyme. 
+Note that the words should be very close to a perfect rhyme. Some poems change rhyme patterns from stanza to stanza, so use some discretion and don't annotate something as rhyme if you don't think it rhymes at all.
+
+
