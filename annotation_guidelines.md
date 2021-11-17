@@ -92,4 +92,3 @@ steg liflig Efterklangen!
 A correct rhyme scheme code is "AABCCB", because Fjeld (modern Norwegian: Fjell) and Sjæl (modern Norwegian: Sjel) _almost_ rhyme. 
 Note that the words should be very close to a perfect rhyme. Some poems change rhyme patterns from stanza to stanza, so use some discretion and don't annotate something as rhyme if you don't think it rhymes at all.
 
-
