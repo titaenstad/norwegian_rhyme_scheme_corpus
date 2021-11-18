@@ -21,7 +21,7 @@ There are three special characters that are used to annotate lines that for some
 
 ### T - Title
 Used when 
-* the line is the title of the poem. 
+* the line is the title of the poem.  
 If the data is formatted correctly, this should be used exclusively on the first line of the first stanza of the poem. Not all poems contain a title.
 
 Example:
