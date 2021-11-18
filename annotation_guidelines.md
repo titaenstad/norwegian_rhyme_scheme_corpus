@@ -94,8 +94,7 @@ Note that the words should be very close to a perfect rhyme. Some poems change r
 
 # Notes on the annotation script
 The annotation script is a simple tool to help you annotate rhyme scheme. 
-It will read poems from a folder, and present them to you, stanza by stanza (aka split it on double newlines and feed each bit one by one).
-You will be asked to provide the rhyme scheme code for the given stanza.
-Once you have provided a rhyme scheme code of the correct length, you will see the poem annotated line for line with your rhyme scheme code. 
-If this looks good, your annotation is saved and you will get the next stanza.
+It will read poems from a folder, and present them to you, stanza by stanza.
+You will be asked to provide a rhyme scheme code for the given stanza, and once you have provided a rhyme scheme code of the correct length, you will see the poem annotated line for line with your rhyme scheme code. 
+You will be asked to confirm that this is correct, and if so your annotation is saved and you will get the next stanza.
 
