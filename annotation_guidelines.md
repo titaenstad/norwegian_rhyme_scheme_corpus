@@ -92,11 +92,11 @@ steg liflig Efterklangen!
 A correct rhyme scheme code is "AABCCB", because Fjeld (modern Norwegian: Fjell) and Sjæl (modern Norwegian: Sjel) _almost_ rhyme. 
 Note that the words should be very close to a perfect rhyme. Some poems change rhyme patterns from stanza to stanza, so use some discretion and don't annotate something as rhyme if you don't think it rhymes at all.
 
-# Notes on the annotation script
+# Intro to the annotation script
 The annotation script is a simple tool to help you annotate rhyme scheme. 
 It will read poems from a folder, and present them to you, stanza by stanza.  
 ![sc_1](script_sc_1.png)  
 You will be asked to provide a rhyme scheme code for the given stanza, and once you have provided a rhyme scheme code of the correct length, you will see the poem annotated line for line with your rhyme scheme code.  
 ![sc_2](script_sc_2.png)  
-You will be asked to confirm that this is correct, and if so your annotation is saved and you will get the next stanza.
+You will be asked to confirm that this is correct, and if so your annotation is saved and you will be presented with the next stanza.
 
