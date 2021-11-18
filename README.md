@@ -10,7 +10,7 @@ Each poem is split into stanzas, and each stanza is annotated on rhyme scheme.
 # Notes on the annotation script:
 The annotation script is a simple tool to help you annotate rhyme scheme. 
 It will read poems from a folder, and present them to you, stanza by stanza (aka split it on double newlines and feed each bit one by one). 
-You will be asked to provide a rhyme scheme code for the given stanza, and once you have provided a rhyme scheme code of the correct length, you will see the poem annotated line for line with your rhyme scheme code. You will be asked to confirm that this is correct, and if so your annotation is saved and you will get the next stanza.
+For each stanza, you will be asked to provide a rhyme scheme code (see the [annotation guidelines](annotation_guidelines.md) for more on this), and your annotations will be saved after each.
 
 ## Dependencies
 The annotation script was created with Python 3.8.10, but should work for all versions >= 3.4 without installing any packages.
