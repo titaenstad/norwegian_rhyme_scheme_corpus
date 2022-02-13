@@ -18,31 +18,47 @@ def annotate(args):
     =============================================================================================""")
     source_dir = Path(args.source_dir)
     out_dir = Path(args.dir)
+    
+    source_poems = sorted(list(source_dir.iterdir()))
+    out_poems = sorted(list(out_dir.iterdir()))
 
-    source_iter = source_dir.iterdir()
-    already_annotated_poems = len(list(out_dir.iterdir()))
+    already_annotated_poems = len(out_poems)
 
     if already_annotated_poems > 0:
         print(f"""
     You have already started annotating. 
     Starting where you left off (assuming the source dir is the same as last time).
     ----------------------------------------------------------------------------------------------""")
-        for i in range(already_annotated_poems-1):
-            poem = next(source_iter)
+        prev_poem_i = already_annotated_poems-1
+    else:
+        prev_poem_i = 0
 
-    for poem in source_iter:
-        content = poem.read_text()
+    for i in range(prev_poem_i, len(source_poems)):
+        poem = source_poems[i]
+        print(f"""
+    Annotating {poem}
+    ----------------------------------------------------------------------------------------------
+        """)
+
+        content = poem.read_text()[:-1] #remove added newline to the end of text
         stanzas = content.split("\n\n")
 
         name = poem.name[:-4]
         out_file = out_dir / f"{name}_annotated.txt"
         if out_file.exists():
-            content = poem.read_text()
+            content = out_file.read_text()[:-1]
+            print("content out_file:", content)
             annotated_stanzas = content.split("\n\n")
-            # + 1 due to added \n\n for each stanza annotated (line 57)
+            print(annotated_stanzas)
+            # + 1 due to added \n\n for each stanza annotated (line 56)
             missing_stanzas = (len(stanzas) - len(annotated_stanzas)) + 1
+            print(missing_stanzas)
+            print(len(stanzas))
             if missing_stanzas:
                 stanzas = stanzas[-missing_stanzas:]
+                print(len(stanzas))
+
+                
         
         for stanza in stanzas:
             annotation = annotate_stanza(stanza)
@@ -64,7 +80,7 @@ def annotate_stanza(stanza):
         str: the annotated stanza
     """
     lines = stanza.split("\n")
-    longest_line_length = max([len(line) for line in lines])
+    #longest_line_length = max([len(line) for line in lines])
     print(f"""
     The following stanza has {len(lines)} lines. 
     Please provide a rhyme scheme code of length {len(lines)}
@@ -153,7 +169,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Annotation tool for rhyme scheme annotation")
     parser.add_argument("dir", type=str,
                         help="path to directory where produced annotations are saved")
-    parser.add_argument("-s", "--source_dir", type=str, default="poems/",
+    parser.add_argument("-s", "--source_dir", type=str, default="poems/bokmål/",
                         help="path to directory where poems to annotate are stored")
 
     args = parser.parse_args()
