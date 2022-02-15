@@ -6,12 +6,12 @@ Iff the first and second line of the stanza rhyme, the first and second letter o
 
 For the stanza  
 ```
-2. Oplad vor Mund, din Lov udbred,
-til Andagt Hjertet vel bered,
-forøg vor Tro, styrk vor Forstand,
-at vi dit Navn ret kjende kan!
+Den natten bygget vi et drømmeslott
+med hvite saler, blanke marmorflater 
+det skulle ligge høyt og sees godt
+i sol og luft med åpne, lyse gater
 ```
-A correct rhyme scheme code is "AABB" (or "QQWW"). Examples of incorrect rhyme scheme code are "ABAB", "AAAA" or "AABBA". 
+A correct rhyme scheme code is "ABAB" (or "QQWW"). Examples of incorrect rhyme scheme code are "ABBA", "AAAA" or "AABBA". 
 
 ## Acceptable characters for rhyme scheme code
 You may use any of the characters QWERYUOPASDFGHJKLZXCVBM to annotate the rhyme scheme of a stanza.  
@@ -23,17 +23,17 @@ There are three special characters that are used to annotate lines that for some
 Used when 
 * the line is the title of the poem.  
 
-If the data is formatted correctly, this should be used exclusively on the first line of the first stanza of the poem. Not all poems contain a title.
+If the data is formatted correctly, this should usually be on the first line of the first stanza of the poem. Not all poems contain a title.
 
 Example:
 
 For the stanza  
 ```
-Cleander til Clarice.
-Clarice, mindes du den gang
-Da jeg i Marken laae,
-Og lystig om min Frihed sang,
-For jeg din Skjønhed saae:
+RIDDERSLAG
+Vi har en verden å vinne
+og ikke en time å miste.
+Så skulle vi famle i blinde
+og spikre oss selv en kiste?
 ```
 a correct rhyme scheme code is **T**ABAB.
 
@@ -44,13 +44,14 @@ Used when:
 Example:  
 For the stanza  
 ```
-4. Tak ske Gud Fader, Søn og Aand,
-Et i Fuldkommenhedens Baand,
-den hellige Treenighed
-ske Lov og Pris i Evighed!
-Wilhelm 11, Hertug af Sachsen-Weimar, ; 1662.
+ENGELSKE SOCIALISTER
+Etter generalstreiken.
+Nå vask deres hender! Ta på dere jakken,
+Mac Donald og Thomas og Henderson!
+Nå ligger han rolig med kniven i nakken,
+den tosk! La ham bare bli liggende sånn.
 ```
-a correct rhyme scheme code is "AABB**I**".
+a correct rhyme scheme code is "T**I**ABAB".
 
 ### N - Noise 
 Used when:
@@ -60,40 +61,32 @@ Used when:
 Example: 
 For the stanza 
 ```
-Over stod Solen stilleøt
-og spredte trindt sin Pragt,
-det hele stille Billed
-i gyldne Baand var lagt.
+fo ⁶) pndehe s ro ⁷ft fjerner,
+⁸⁸ er mantdøde fiksidders rov,
+og trærne ser man ei for bare skog,
+man knuser nøttene med skall og kjerner.
+En patriot forteller at han verner
+om landets kraft når bare han er grov,
+og vraker åndens nektar med en lov
+av tankefinkel fra de tomme hjerner.
 ```
-a correct rhyme scheme code is "**N**ABA", because the line-ending word on the first line contains noise.
-
-For the stanza
-```
-Der brast vel mangen Pande,
-Der rödmed Iljemmets Jord
-1 Ftævnet mod vor Grande,
-h)en gjæve svenske Broer.
-```
-a correct rhyme scheme code is "A**NNN**", because lines 2-4 contain too much noise for us to want to include it in our dataset, 
+a correct rhyme scheme code is "**NN**ABBCCB", because lines 1 and 2 contain too much noise for us to want to include it in our dataset, 
 even if the line-ending-words are free from noise.
 
 
 
 ## The definition of rhyme
-Sometimes there the stanzas contain word pairs that don't fully rhyme, but almost, and the rhyme scheme of previous stanzas indicate that the author meant for these to rhyme. In these cases, annotate them as rhymes. The author is a published poet and we should accept their definition of rhyme. 
+Sometimes there the stanzas contain word pairs that don't fully rhyme, but almost. Because the data is fairly old, you might observe examples where the words would rhyme if you replace the t-sound with the d-sound or other ways to speak that are similar to old *riksmål*. Try to annotate the rhyme as accurately as possible given how the stanza is written. 
 
 Example:
 For the stanza
 ```
-Hvor skulde da jeg mindes fro
-Enhver, som var mig huld og tro
-i Venskab og i Sangen
-og skued jeg mod Norges Fjeld,
-af Mindets Vemod i min Sjæl
-steg liflig Efterklangen!
+Verden, hvor er du full av gåter,                                
+kverner som hav i klippering,                                    
+maler din must til lette fråder,                                 
+knuser din kraft til ingenting!
 ```
-A correct rhyme scheme code is "AABCCB", because Fjeld (modern Norwegian: Fjell) and Sjæl (modern Norwegian: Sjel) _almost_ rhyme. 
-Note that the words should be very close to a perfect rhyme. Some poems change rhyme patterns from stanza to stanza, so use some discretion and don't annotate something as rhyme if you don't think it rhymes at all.
+a correct rhyme scheme code is "ABCB". It might be tempting to annotate "gåter" and "fråder" as rhyming, and this was probably what the author meant as well (when this was written almost 100 years ago). But, unless you speak a dialect where these words actually rhyme, please do not annotate word pairs as rhyming if they don't rhyme the way you would pronounce it. 
 
 # Intro to the annotation script
 The annotation script is a simple tool to help you annotate rhyme scheme. 
