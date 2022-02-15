@@ -91,8 +91,8 @@ a correct rhyme scheme code is "ABCB". It might be tempting to annotate "gåter"
 # Intro to the annotation script
 The annotation script is a simple tool to help you annotate rhyme scheme. 
 It will read poems from a folder, and present them to you, stanza by stanza.  
-![sc_1](script_sc_1.png)  
+![sc_1](screenshot1.png)  
 You will be asked to provide a rhyme scheme code for the given stanza, and once you have provided a rhyme scheme code of the correct length, you will see the poem annotated line for line with your rhyme scheme code.  
-![sc_2](script_sc_2.png)  
+![sc_2](screenshot2.png)  
 You will be asked to confirm that this is correct, and if so your annotation is saved and you will be presented with the next stanza.
 
