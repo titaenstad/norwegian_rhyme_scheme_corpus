@@ -88,6 +88,20 @@ knuser din kraft til ingenting!
 ```
 a correct rhyme scheme code is "ABCB". It might be tempting to annotate "gåter" and "fråder" as rhyming, and this was probably what the author meant as well (when this was written almost 100 years ago). But, unless you speak a dialect where these words actually rhyme, please do not annotate word pairs as rhyming if they don't rhyme the way you would pronounce it. 
 
+Example:
+For the stanza
+```
+Her ser du i blest bak det vimrende løv
+i sortmalte linjer: Guds fred med ditt støv!
+hvor sorgen sitt minnekvad satte.
+Om enkelt og kluntet, mitt hjerte hvor rikt,
+når livet fortolker de skjønneste dikt
+som hjertene bare kan fatte
+```
+a correct rhyme scheme code is "AABCCB". Though "rikt" and "dikt" have different stress, with the "i" being long in "rikt" and short in "dikt", the words are similar enough that this should be accepted as rhyme. 
+
+
+
 # Intro to the annotation script
 The annotation script is a simple tool to help you annotate rhyme scheme. 
 It will read poems from a folder, and present them to you, stanza by stanza.  
