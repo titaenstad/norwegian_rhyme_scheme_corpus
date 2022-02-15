@@ -58,7 +58,7 @@ Used when:
 * the line is not in Norwegian or most words are noisy/unintelligeble
 * the line-ending-word contains noise/is not a proper word
 
-Example: 
+Example:   
 For the stanza 
 ```
 fo ⁶) pndehe s ro ⁷ft fjerner,
@@ -78,7 +78,7 @@ even if the line-ending-words are free from noise.
 ## The definition of rhyme
 Sometimes there the stanzas contain word pairs that don't fully rhyme, but almost. Because the data is fairly old, you might observe examples where the words would rhyme if you replace the t-sound with the d-sound or other ways to speak that are similar to old *riksmål*. Try to annotate the rhyme as accurately as possible given how the stanza is written. 
 
-Example:
+Example:  
 For the stanza
 ```
 Verden, hvor er du full av gåter,                                
@@ -88,7 +88,7 @@ knuser din kraft til ingenting!
 ```
 a correct rhyme scheme code is "ABCB". It might be tempting to annotate "gåter" and "fråder" as rhyming, and this was probably what the author meant as well (when this was written almost 100 years ago). But, unless you speak a dialect where these words actually rhyme, please do not annotate word pairs as rhyming if they don't rhyme the way you would pronounce it. 
 
-Example:
+Example:  
 For the stanza
 ```
 Her ser du i blest bak det vimrende løv
