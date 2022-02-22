@@ -99,14 +99,3 @@ når livet fortolker de skjønneste dikt
 som hjertene bare kan fatte
 ```
 a correct rhyme scheme code is "AABCCB". Though "rikt" and "dikt" have different stress, with the "i" being long in "rikt" and short in "dikt", the words are similar enough that this should be accepted as rhyme. As a rule of thumb, difference in stress is a lesser rhyme crime than completely different consonant/vowel sounds.
-
-
-
-# Intro to the annotation script
-The annotation script is a simple tool to help you annotate rhyme scheme. 
-It will read poems from a folder, and present them to you, stanza by stanza.  
-![sc_1](screenshot1.png)  
-You will be asked to provide a rhyme scheme code for the given stanza, and once you have provided a rhyme scheme code of the correct length, you will see the poem annotated line for line with your rhyme scheme code.  
-![sc_2](screenshot2.png)  
-You will be asked to confirm that this is correct, and if so your annotation is saved and you will be presented with the next stanza.
-
