@@ -45,8 +45,10 @@ def annotate(args):
             content = out_file.read_text()[:-1]
             annotated_stanzas = content.split("\n\n")
 
-            # + 1 due to added \n\n for each stanza annotated (line 56) ()
             missing_stanzas = (len(stanzas) - len(annotated_stanzas))
+            if annotated_stanzas[-1] == "": 
+                missing_stanzas += 1
+                
             if missing_stanzas:
                 stanzas = stanzas[-missing_stanzas:]
             else:
