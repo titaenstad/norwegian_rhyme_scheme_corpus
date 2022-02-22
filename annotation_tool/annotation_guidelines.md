@@ -98,7 +98,7 @@ Om enkelt og kluntet, mitt hjerte hvor rikt,
 når livet fortolker de skjønneste dikt
 som hjertene bare kan fatte
 ```
-a correct rhyme scheme code is "AABCCB". Though "rikt" and "dikt" have different stress, with the "i" being long in "rikt" and short in "dikt", the words are similar enough that this should be accepted as rhyme. 
+a correct rhyme scheme code is "AABCCB". Though "rikt" and "dikt" have different stress, with the "i" being long in "rikt" and short in "dikt", the words are similar enough that this should be accepted as rhyme. As a rule of thumb, difference in stress is a lesser rhyme crime than completely different consonant/vowel sounds.
 
 
 
