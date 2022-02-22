@@ -41,17 +41,21 @@ def annotations_to_tsv(args):
     dst =  Path(args.dst)
     schemes = []
     stanzas = []
+    filenames = []
+    indexes = []
 
     for e in dst.iterdir():
         if e.suffix == ".txt":
             st = e.read_text().split("\n\n")[:-1]
-            for s in st:
+            for i, s in enumerate(st):
                 lines = s.split("\n")
                 scheme = clean_scheme(lines[0])
                 schemes.append(scheme)
                 stanzas.append("\n".join(lines[1:]))
+                filenames.append(e.name)
+                indexes.append(i)
 
-    poem_df = pd.DataFrame({"rhyme scheme":schemes, "stanza": stanzas})
+    poem_df = pd.DataFrame({"rhyme scheme":schemes, "stanza": stanzas, "filename": filenames, "stanza number (in file)": indexes})
 
     poem_df.to_csv(f"tsvs/{dst.name}_rhymes_poems.tsv", sep="\t", index=False)
 
