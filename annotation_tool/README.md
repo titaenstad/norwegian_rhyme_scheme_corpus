@@ -2,7 +2,7 @@
 # How to help annotate the inter annotator subset:
 1. Read the [guidelines](annotation_guidelines.md)
 2. Run the annotation script like this: `python3 annotate.py <your-name> -s poems_subset`
-3. Have fun annotating 75-ish stanzas :D Thank you!
+3. Have fun annotating 100 stanzas :D Thank you!
 
 # Notes on the annotation script:
 The annotation script is a simple tool to help you annotate rhyme scheme. 
