@@ -18,6 +18,6 @@ The annotation script was created with Python 3.8.10, but should work for all ve
 ## Running the annotation script
 Run the script like this:
 ```
-python3 annotate-py <destination_dir> -s <source_dir>
+python3 annotate.py <destination_dir> -s <source_dir>
 ```
 Where `destination_dir` is the directory where your annotations are saved and `source_dir` is where the poems to annotate are stored. In this case, `poems_subset` is used to measure inter-annotator agreement, and `poems` is the _not yet_ full data set of poetry to be annotated.
