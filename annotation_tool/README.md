@@ -18,3 +18,13 @@ Run the script like this:
 python3 annotate-py <destination_dir> -s <source_dir>
 ```
 Where `destination_dir` is the directory where your annotations are saved and `source_dir` is where the poems to annotate are stored. In this case, `poems_subset` is used to measure inter-annotator agreement, and `poems` is the _not yet_ full data set of poetry to be annotated.
+
+
+# Intro to the annotation script
+The annotation script is a simple tool to help you annotate rhyme scheme. 
+It will read poems from a folder, and present them to you, stanza by stanza.  
+![sc_1](screenshot1.png)  
+You will be asked to provide a rhyme scheme code for the given stanza, and once you have provided a rhyme scheme code of the correct length, you will see the poem annotated line for line with your rhyme scheme code.  
+![sc_2](screenshot2.png)  
+You will be asked to confirm that this is correct, and if so your annotation is saved and you will be presented with the next stanza.
+
