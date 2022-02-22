@@ -3,4 +3,4 @@ This ~~is~~ will be a corpus of rhyme scheme annotated poetry extracted from the
 Each poem is split into stanzas, and each stanza is annotated on rhyme scheme.
 
 # How to help annotate:
-Read the [annotation tool README](annotaion_tool/README.md)
+Read the [annotation tool README](annotation_tool/README.md)
