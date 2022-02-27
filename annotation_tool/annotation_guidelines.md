@@ -86,7 +86,7 @@ kverner som hav i klippering,
 maler din must til lette fråder,                                 
 knuser din kraft til ingenting!
 ```
-a correct rhyme scheme code is "ABCB". It might be tempting to annotate "gåter" and "fråder" as rhyming, and this was probably what the author meant as well (when this was written almost 100 years ago). But, unless you speak a dialect where these words actually rhyme, please do not annotate word pairs as rhyming if they don't rhyme the way you would pronounce it. 
+a correct rhyme scheme code is "ABCB". It might be tempting to annotate "gåter" and "fråder" as rhyming, as they are indeed similar (and this was probably what the author meant as well, when this was written almost 100 years ago). But, because we want the data to reflect modern (Østlandsk) Norwegian, please do not annotate word pairs as rhyming if they don't rhyme the way you would pronounce it. We do not want to *danify* our language. 
 
 Example:  
 For the stanza
@@ -98,4 +98,4 @@ Om enkelt og kluntet, mitt hjerte hvor rikt,
 når livet fortolker de skjønneste dikt
 som hjertene bare kan fatte
 ```
-a correct rhyme scheme code is "AABCCB". Though "rikt" and "dikt" have different stress, with the "i" being long in "rikt" and short in "dikt", the words are similar enough that this should be accepted as rhyme. As a rule of thumb, difference in stress is a lesser rhyme crime than completely different consonant/vowel sounds.
+a correct rhyme scheme code is "AABCCB". Though "rikt" and "dikt" do not rhyme 100%, with the "i" being long in "rikt" and short in "dikt", the words are similar enough that this should be accepted as rhyme. As a rule of thumb, using long/short vowels is a lesser rhyme crime than completely different consonant/vowel sounds.
