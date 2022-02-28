@@ -76,7 +76,7 @@ even if the line-ending-words are free from noise.
 
 
 ## The definition of rhyme
-Sometimes there the stanzas contain word pairs that don't fully rhyme, but almost. Because the data is fairly old, you might observe examples where the words would rhyme if you replace the t-sound with the d-sound or other ways to speak that are similar to old *riksmål*. Try to annotate the rhyme as accurately as possible given how the stanza is written. 
+Sometimes there are stanzas contain word pairs that don't fully rhyme, but almost. Because the data is fairly old, you might observe examples where the words would rhyme if you replace the t-sound with the d-sound or other ways to speak that are similar to old *riksmål*. Try to annotate the rhyme as accurately as possible given how the stanza is written. 
 
 Example:  
 For the stanza
