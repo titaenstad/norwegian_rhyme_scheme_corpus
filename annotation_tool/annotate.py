@@ -69,7 +69,6 @@ def annotate(args):
                 f.write(annotation)
                 f.write("\n\n")
 
-
 def annotate_stanza(stanza):
     """Lets the user annotate one stanza
     
@@ -168,7 +167,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Annotation tool for rhyme scheme annotation")
     parser.add_argument("dir", type=str,
                         help="path to directory where produced annotations are saved")
-    parser.add_argument("-s", "--source_dir", type=str, default="poems/bokmål/",
+    parser.add_argument("-s", "--source_dir", type=str, default="../poems/bokmål/",
                         help="path to directory where poems to annotate are stored")
 
     args = parser.parse_args()

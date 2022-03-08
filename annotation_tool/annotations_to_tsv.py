@@ -57,9 +57,9 @@ def annotations_to_tsv(args):
 
     poem_df = pd.DataFrame({"rhyme scheme":schemes, "stanza": stanzas, "filename": filenames, "stanza number (in file)": indexes})
 
-    poem_df.to_csv(f"tsvs/{dst.name}_rhymes_poems.tsv", sep="\t", index=False)
+    poem_df.to_csv(f"../tsvs/{dst.name}_rhymes_poems.tsv", sep="\t", index=False)
 
-    print(f"All annotations saved to <tsvs/{dst.name}_rhymes_poems.tsv>.")
+    print(f"All annotations saved to <../tsvs/{dst.name}_rhymes_poems.tsv>.")
 
 def check_dir(args):
     """Check that the directory containing annotation exists.
