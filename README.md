@@ -9,7 +9,5 @@ Read the [annotation tool README](annotation_tool/README.md)
 The directory `poems` contain unannotated poetry files.  
 The file `tsvs/tita_rhymes_poems.tsv` contains the complete rhyme annotated poetry set. 
 
-## Word and sentence pairs based on the annotated data set
-The files `tsvs/rhyme_pairs.tsv` and `tsvs/negative_rhyme_pairs.tsv` contain word pairs that rhyme or don't rhyme, respectfully.  
-The file `tsvs/sentence_pairs.tsv` contains sentence pairs annotated with rhyme (1=rhyme, 0=not rhyme).
-
+## Rhyme annotated word pairs and sentence pairs 
+The file `tsvs/rhyme_word_pairs.tsv` contains word pairs, and `tsvs/rhyme_sentence_pairs.tsv` contains sentence pairs annotated with rhyme (1=rhyme, 0=not rhyme).
