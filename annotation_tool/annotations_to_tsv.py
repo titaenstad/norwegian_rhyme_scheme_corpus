@@ -13,16 +13,21 @@ def clean_scheme(scheme):
         scheme = scheme.replace("N", "2")
         unique_chars = (set(scheme) - {"0", "1", "2"})
         unique_chars = sorted(list(unique_chars), key=lambda x: scheme.index(x))
-        scheme = "-".join(scheme)    
+        scheme = "-".join(scheme)
         for i, c in enumerate(unique_chars, start=3):
             scheme = scheme.replace(c, str(i))
         return scheme
 
     def numeric_to_scheme(scheme):
         unique_chars = sorted(list(set(scheme.split("-")) - {"0", "1", "2"}), key=int)
+
+        scheme = scheme.split("-")
         for i, c in enumerate(unique_chars, start=3):
-            scheme = scheme.replace(c, letters[i])
-        scheme = scheme.replace("-", "")
+            for j in range(len(scheme)):
+                if scheme[j] == c:
+                    scheme[j] = letters[i]
+
+        scheme = "".join(scheme)
         scheme = scheme.replace("0", "T")
         scheme = scheme.replace("1", "I")
         scheme = scheme.replace("2", "N")
