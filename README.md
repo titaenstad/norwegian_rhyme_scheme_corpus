@@ -8,7 +8,7 @@ This data set consists of 5158 stanzas, or 26 198 lines annotated with rhyme sch
 
 # File structure
 The directory `poems` contain unannotated poetry files.   
-The file `tsvs/tita_rhymes_poems.tsv` contains v1 of the complete rhyme annotated poetry set. 
+The file `tsvs/tita_rhymes_poems.tsv` contains v1 of the complete rhyme annotated poetry set.  
 The file `tsvs/norwegian_rhyme_scheme_corpus_v11.tsv` contains version 1.1 of the complete rhyme annotated poetry set (89 stanzas are re-annotated).
 
 ## Rhyme annotated word pairs and sentence pairs 
