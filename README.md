@@ -12,7 +12,11 @@ The file `tsvs/tita_rhymes_poems.tsv` contains v1 of the complete rhyme annotate
 The file `tsvs/norwegian_rhyme_scheme_corpus_v11.tsv` contains version 1.1 of the complete rhyme annotated poetry set (89 stanzas are re-annotated).
 
 ## Rhyme annotated word pairs and sentence pairs 
-The file `tsvs/rhyme_word_pairs.tsv` contains word pairs, and `tsvs/rhyme_sentence_pairs.tsv` contains sentence pairs annotated with rhyme (1=rhyme, 0=not rhyme).
+The file `tsvs/positive_pairs.tsv` contains 7238 positive rhyme pairs. 
+The file `tsvs/negative_pairs.tsv` contains 22 447 negative rhyme pairs.  
+The file `tsvs/rhyme_sentence_pairs.tsv` contains 35 409 sentence pairs annotated with rhyme (1=rhyme, 0=not rhyme).
+(These are from v.1)
+
 
 # How to help annotate:
 Read the [annotation tool README](annotation_tool/README.md)
