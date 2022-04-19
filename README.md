@@ -4,7 +4,8 @@ This is a corpus of rhyme scheme annotated poetry extracted from the [Public Dom
 Each poem is split into stanzas, and each stanza is annotated on rhyme scheme.
 
 # Data set 
-This data set consists of 5158 stanzas, or 26 198 lines annotated with rhyme scheme codes.
+This data set consists of 5158 stanzas, or 26 198 lines annotated with rhyme scheme codes.  
+This poetry stems from 11 books from the source corpus. We will hopefully be able to extend this in the future.  
 
 # File structure
 The directory `poems` contain unannotated poetry files.   
